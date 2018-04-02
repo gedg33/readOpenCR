@@ -14,4 +14,2755 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bootloaders\opencr_boot.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="libraries\OP3\examples\opencr_op3\opencr_op3.ino" />
+    <None Include="libraries\OpenCR\examples\01. Basics\a_Bare_Minimum\a_Bare_Minimum.ino" />
+    <None Include="libraries\OpenCR\examples\01. Basics\b_Blink_LED\b_Blink_LED.ino" />
+    <None Include="libraries\OpenCR\examples\01. Basics\c_Digital_Read_Serial\c_Digital_Read_Serial.ino" />
+    <None Include="libraries\OpenCR\examples\01. Basics\d_Analog_Read_Serial\d_Analog_Read_Serial.ino" />
+    <None Include="libraries\OpenCR\examples\01. Basics\e_Read_Analog_Voltage\e_Read_Analog_Voltage.ino" />
+    <None Include="libraries\OpenCR\examples\02. Digital\a_toneMelody\a_toneMelody.ino" />
+    <None Include="libraries\OpenCR\examples\02. Digital\b_PWM\b_PWM.ino" />
+    <None Include="libraries\OpenCR\examples\03. Communication\a_Serial_HelloWorld\a_Serial_HelloWorld.ino" />
+    <None Include="libraries\OpenCR\examples\04. Interrupt\a_EXIT_Interrupt_Serial\a_EXIT_Interrupt_Serial.ino" />
+    <None Include="libraries\OpenCR\examples\04. Interrupt\d_Timer_Interrupt_LED\d_Timer_Interrupt_LED.ino" />
+    <None Include="libraries\OpenCR\examples\05. Sensors\OLLO_DMS_Read\OLLO_DMS_Read.ino" />
+    <None Include="libraries\OpenCR\examples\05. Sensors\OLLO_IR_Read\OLLO_IR_Read.ino" />
+    <None Include="libraries\OpenCR\examples\05. Sensors\OLLO_TOUCH_Read\OLLO_TOUCH_Read.ino" />
+    <None Include="libraries\OpenCR\examples\06. RC100\RC100\RC100.ino" />
+    <None Include="libraries\OpenCR\examples\07. DynamixelSDK\dxl_monitor\dxl_monitor.ino" />
+    <None Include="libraries\OpenCR\examples\07. DynamixelSDK\protocol_combined\protocol_combined.ino" />
+    <None Include="libraries\OpenCR\examples\07. DynamixelSDK\protocol1.0\bulk_read\bulk_read.ino" />
+    <None Include="libraries\OpenCR\examples\07. DynamixelSDK\protocol1.0\ping\ping.ino" />
+    <None Include="libraries\OpenCR\examples\07. DynamixelSDK\protocol1.0\read_write\read_write.ino" />
+    <None Include="libraries\OpenCR\examples\07. DynamixelSDK\protocol1.0\reset\reset.ino" />
+    <None Include="libraries\OpenCR\examples\07. DynamixelSDK\protocol1.0\sync_write\sync_write.ino" />
+    <None Include="libraries\OpenCR\examples\07. DynamixelSDK\protocol2.0\broadcast_ping\broadcast_ping.ino" />
+    <None Include="libraries\OpenCR\examples\07. DynamixelSDK\protocol2.0\bulk_read_write\bulk_read_write.ino" />
+    <None Include="libraries\OpenCR\examples\07. DynamixelSDK\protocol2.0\factory_reset\factory_reset.ino" />
+    <None Include="libraries\OpenCR\examples\07. DynamixelSDK\protocol2.0\indirect_address\indirect_address.ino" />
+    <None Include="libraries\OpenCR\examples\07. DynamixelSDK\protocol2.0\ping\ping.ino" />
+    <None Include="libraries\OpenCR\examples\07. DynamixelSDK\protocol2.0\read_write\read_write.ino" />
+    <None Include="libraries\OpenCR\examples\07. DynamixelSDK\protocol2.0\reboot\reboot.ino" />
+    <None Include="libraries\OpenCR\examples\07. DynamixelSDK\protocol2.0\sync_read_write\sync_read_write.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\a_Model_Scan\a_Model_Scan.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\b_Ping\b_Ping.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\c_Get_Model_Number\c_Get_Model_Number.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\d_ID_Change\d_ID_Change.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\e_BPS_Change\e_BPS_Change.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\f_Mode_Change\f_Mode_Change.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\g_Reboot\g_Reboot.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\h_Reset\h_Reset.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\i_LED\i_LED.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\j_Position\j_Position.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\k_Speed\k_Speed.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\l_Position_Speed\l_Position_Speed.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\m_Mixed_Mode\m_Mixed_Mode.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\n_Current\n_Current.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\o_Read_Write\o_Read_Write.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\p_Sync_Write\p_Sync_Write.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\q_Sync_Read_Write\q_Sync_Read_Write.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\r_Bulk_Read_Write\r_Bulk_Read_Write.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\s_Monitor\s_Monitor.ino" />
+    <None Include="libraries\OpenCR\examples\08. DynamixelWorkbench\t_Find_Dynamixel\t_Find_Dynamixel.ino" />
+    <None Include="libraries\OpenCR\examples\09. IMU\IMU_Read_AccRAW\IMU_Read_AccRAW.ino" />
+    <None Include="libraries\OpenCR\examples\09. IMU\IMU_Read_GyroRAW\IMU_Read_GyroRAW.ino" />
+    <None Include="libraries\OpenCR\examples\09. IMU\IMU_Read_RollPitchYaw\IMU_Read_RollPitchYaw.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\CAN\canMaskFilter\canMaskFilter.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\CAN\canRxInterrupt\canRxInterrupt.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\CAN\canTxRxByte\canTxRxByte.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\CAN\canTxRxMessage\canTxRxMessage.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\EEPROM\eeprom_clear\eeprom_clear.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\EEPROM\eeprom_crc\eeprom_crc.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\EEPROM\eeprom_get\eeprom_get.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\EEPROM\eeprom_iteration\eeprom_iteration.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\EEPROM\eeprom_put\eeprom_put.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\EEPROM\eeprom_read\eeprom_read.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\EEPROM\eeprom_update\eeprom_update.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\EEPROM\eeprom_write\eeprom_write.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\Eigen\eigen_test\eigen_test.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\FreeRTOS\thread_led\thread_led.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\LDS\drawLDS\drawLDS.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\rtc_time\rtc_time.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\SPI\using_SPI_ports\using_SPI_ports.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\TFT\tft_shape\tft_shape\tft_shape.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\TFT\tft_text\tft_text\tft_text.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\TFT\tft_touch\tft_touch\tft_touch.ino" />
+    <None Include="libraries\OpenCR\examples\10. Etc\usb_to_dxl\usb_to_dxl.ino" />
+    <None Include="libraries\ROS\examples\01. Basics\a_LED\a_LED.ino" />
+    <None Include="libraries\ROS\examples\01. Basics\b_Button\b_Button.ino" />
+    <None Include="libraries\ROS\examples\01. Basics\c_Voltage\c_Voltage.ino" />
+    <None Include="libraries\ROS\examples\01. Basics\d_IMU\d_IMU.ino" />
+    <None Include="libraries\turtlebot3\examples\turtlebot3_burger\turtlebot3_core\turtlebot3_core.ino" />
+    <None Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_bike\turtlebot3_bike.ino" />
+    <None Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_car\turtlebot3_car.ino" />
+    <None Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_conveyor\turtlebot3_ex01_parallel_translation.ino" />
+    <None Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_mecanum\turtlebot3_mecanum.ino" />
+    <None Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_monster\turtlebot3_monster.ino" />
+    <None Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_omni\turtlebot3_omni.ino" />
+    <None Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_realturtlebot\turtlebot3_realturtlebot.ino" />
+    <None Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_road_train\turtlebot3_road_train.ino" />
+    <None Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_segway\turtlebot3_segway.ino" />
+    <None Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_tank\turtlebot3_tank.ino" />
+    <None Include="libraries\turtlebot3\examples\turtlebot3_setup\turtlebot3_setup_motor\turtlebot3_setup_motor.ino" />
+    <None Include="libraries\turtlebot3\examples\turtlebot3_waffle\turtlebot3_core\turtlebot3_core.ino" />
+    <None Include="libraries\Waveshare_HX8347D\examples\breakouttouchpaint\breakouttouchpaint.ino" />
+    <None Include="libraries\Waveshare_HX8347D\examples\graphicstest\graphicstest.ino" />
+    <None Include="libraries\Waveshare_HX8347D\examples\lcd_logo\lcd_logo.ino" />
+    <None Include="libraries\Waveshare_HX8347D\examples\spitftbitmap\spitftbitmap.ino" />
+    <None Include="libraries\Waveshare_HX8347D\examples\tft_box\tft_box.ino" />
+    <None Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Release_Notes.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cores\arduino\avr\dtostrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\arduino\HardwareTimer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\arduino\itoa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\arduino\new.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\arduino\Print.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\arduino\RingBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\arduino\Stream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\arduino\Tone.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\arduino\UARTClass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\arduino\USBSerial.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\arduino\WInterrupts.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\arduino\wiring.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\arduino\wiring_analog.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\arduino\wiring_digital.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\arduino\wiring_pulse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\arduino\wiring_shift.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\arduino\WMath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\arduino\WString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Adafruit_GFX_Library\fontconvert\fontconvert.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Adafruit_GFX_Library\glcdfont.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\DynamixelSDK\src\dynamixel_sdk\group_bulk_read.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\DynamixelSDK\src\dynamixel_sdk\group_bulk_write.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\DynamixelSDK\src\dynamixel_sdk\group_sync_read.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\DynamixelSDK\src\dynamixel_sdk\group_sync_write.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\DynamixelSDK\src\dynamixel_sdk\packet_handler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\DynamixelSDK\src\dynamixel_sdk\port_handler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\DynamixelSDK\src\dynamixel_sdk\port_handler_arduino.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\DynamixelSDK\src\dynamixel_sdk\port_handler_linux.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\DynamixelSDK\src\dynamixel_sdk\port_handler_mac.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\DynamixelSDK\src\dynamixel_sdk\port_handler_windows.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\DynamixelSDK\src\dynamixel_sdk\protocol1_packet_handler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\DynamixelSDK\src\dynamixel_sdk\protocol2_packet_handler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\DynamixelWorkbench\src\dynamixel_workbench_toolbox\dynamixel_driver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\DynamixelWorkbench\src\dynamixel_workbench_toolbox\dynamixel_item.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\DynamixelWorkbench\src\dynamixel_workbench_toolbox\dynamixel_tool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\DynamixelWorkbench\src\dynamixel_workbench_toolbox\dynamixel_workbench.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\HX8347D\font.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\HX8347D\LCD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\I2Cdev\I2Cdev.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\IMU\IMU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\IMU\imu_spi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\IMU\MadgwickAHRS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\IMU\MPU9250.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\LcdTouchPanel\LcdTouchPanel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\OLLO\OLLO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\OP3\examples\opencr_op3\dxl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\OP3\examples\opencr_op3\dxl_debug.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\OP3\examples\opencr_op3\dxl_hw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\OP3\examples\opencr_op3\dxl_hw_op3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\OP3\examples\opencr_op3\dxl_node_op3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\OP3\OP3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\OpenCR\examples\10. Etc\LDS\drawLDS\lds.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\OpenCR\OpenCR.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\RC100\RC100.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\ROS\OpenCR_ROS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\RTOS\src\cmsis_os.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\RTOS\src\croutine.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\RTOS\src\event_groups.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\RTOS\src\heap_3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\RTOS\src\list.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\RTOS\src\port.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\RTOS\src\queue.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\RTOS\src\RTOS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\RTOS\src\tasks.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\RTOS\src\timers.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\SPI\SPI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Touch\Touch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_bike\turtlebot3_bike_motor_driver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_car\turtlebot3_car_motor_driver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_mecanum\turtlebot3_mecanum_motor_driver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_monster\turtlebot3_monster_motor_driver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_omni\turtlebot3_omni_motor_driver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_realturtlebot\turtlebot3_realturtlebot_motor_driver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_road_train\turtlebot3_road_train_motor_driver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_segway\turtlebot3_segway_motor_driver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_tank\turtlebot3_tank_motor_driver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\turtlebot3\src\turtlebot3\turtlebot3_controller.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\turtlebot3\src\turtlebot3\turtlebot3_diagnosis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\turtlebot3\src\turtlebot3\turtlebot3_motor_driver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\turtlebot3\src\turtlebot3\turtlebot3_sensor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\turtlebot3_ros_lib\duration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\turtlebot3_ros_lib\time.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Waveshare_HX8347D\examples\lcd_logo\logo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Waveshare_HX8347D\Waveshare_HX8347D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Wire\SlowSoftI2CMaster.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Wire\Wire.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\XPT2046\XPT2046.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\bsp\opencr\bsp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\bsp\opencr\stm32f7xx_it.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\bsp\opencr\syscalls.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\bsp\opencr\system_clock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\bsp\opencr\system_stm32f7xx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\driver\can.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\driver\delay.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\driver\drv_adc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\driver\drv_can.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\driver\drv_dxl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\driver\drv_eeprom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\driver\drv_exti.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\driver\drv_i2c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\driver\drv_micros.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\driver\drv_pwm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\driver\drv_rtc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\driver\drv_spi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\driver\drv_timer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\driver\drv_uart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\driver\flash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\driver\ring.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\driver\vcp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\driver\wdg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\usb_cdc\usbd_cdc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\usb_cdc\usbd_cdc_interface.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\usb_cdc\usbd_conf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\usb_cdc\usbd_core.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\usb_cdc\usbd_ctlreq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\usb_cdc\usbd_desc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\usb_cdc\usbd_ioreq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\hw\hw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc_ex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_can.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cortex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_crc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_crc_ex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cryp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cryp_ex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma_ex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma2d.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash_ex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_gpio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_hash_ex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_hcd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c_ex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2s.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_iwdg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_lptim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_ltdc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pcd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pcd_ex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr_ex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc_ex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rng.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rtc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rtc_ex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_sd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_spi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_usart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_wwdg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_sdmmc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_usb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\OpenCR\variant.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cores\arduino\avr\dtostrf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\avr\interrupt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\avr\pgmspace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\Arduino.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\binary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\Client.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\HardwareSerial.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\HardwareTimer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\IPAddress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\itoa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\Print.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\Printable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\Reset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\RingBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\Server.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\Stream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\syscalls.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\Tone.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\UARTClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\Udp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\USBSerial.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\WCharacter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\WInterrupts.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\wiring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\wiring_analog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\wiring_constants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\wiring_digital.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\wiring_private.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\wiring_pulse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\wiring_shift.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\WMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\arduino\WString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeMono9pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeMono12pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeMono18pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeMono24pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeMonoBold9pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeMonoBold12pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeMonoBold18pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeMonoBold24pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeMonoBoldOblique9pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeMonoBoldOblique12pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeMonoBoldOblique18pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeMonoBoldOblique24pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeMonoOblique9pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeMonoOblique12pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeMonoOblique18pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeMonoOblique24pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSans9pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSans12pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSans18pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSans24pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSansBold9pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSansBold12pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSansBold18pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSansBold24pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSansBoldOblique9pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSansBoldOblique12pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSansBoldOblique18pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSansBoldOblique24pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSansOblique9pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSansOblique12pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSansOblique18pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSansOblique24pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSerif9pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSerif12pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSerif18pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSerif24pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSerifBold9pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSerifBold12pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSerifBold18pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSerifBold24pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSerifBoldItalic9pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSerifBoldItalic12pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSerifBoldItalic18pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSerifBoldItalic24pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSerifItalic9pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSerifItalic12pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSerifItalic18pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\FreeSerifItalic24pt7b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Fonts\TomThumb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\Adafruit_GFX.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Adafruit_GFX_Library\gfxfont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelSDK\include\dynamixel_sdk\dynamixel_sdk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelSDK\include\dynamixel_sdk\group_bulk_read.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelSDK\include\dynamixel_sdk\group_bulk_write.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelSDK\include\dynamixel_sdk\group_sync_read.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelSDK\include\dynamixel_sdk\group_sync_write.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelSDK\include\dynamixel_sdk\packet_handler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelSDK\include\dynamixel_sdk\port_handler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelSDK\include\dynamixel_sdk\port_handler_arduino.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelSDK\include\dynamixel_sdk\port_handler_linux.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelSDK\include\dynamixel_sdk\port_handler_mac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelSDK\include\dynamixel_sdk\port_handler_windows.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelSDK\include\dynamixel_sdk\protocol1_packet_handler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelSDK\include\dynamixel_sdk\protocol2_packet_handler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelSDK\src\DynamixelSDK.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelWorkbench\include\dynamixel_workbench_toolbox\control_table_item.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelWorkbench\include\dynamixel_workbench_toolbox\dynamixel_driver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelWorkbench\include\dynamixel_workbench_toolbox\dynamixel_item.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelWorkbench\include\dynamixel_workbench_toolbox\dynamixel_tool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelWorkbench\include\dynamixel_workbench_toolbox\dynamixel_workbench.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\DynamixelWorkbench\src\DynamixelWorkbench.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\EEPROM\src\EEPROM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Cholesky\LDLT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Cholesky\LLT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Cholesky\LLT_LAPACKE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\CholmodSupport\CholmodSupport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\AltiVec\Complex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\AltiVec\MathFunctions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\AltiVec\PacketMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\AVX\Complex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\AVX\MathFunctions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\AVX\PacketMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\AVX\TypeCasting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\AVX512\MathFunctions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\AVX512\PacketMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\CUDA\Complex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\CUDA\Half.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\CUDA\MathFunctions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\CUDA\PacketMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\CUDA\PacketMathHalf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\CUDA\TypeCasting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\Default\Settings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\NEON\Complex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\NEON\MathFunctions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\NEON\PacketMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\SSE\Complex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\SSE\MathFunctions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\SSE\PacketMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\SSE\TypeCasting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\ZVector\Complex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\ZVector\MathFunctions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\arch\ZVector\PacketMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\functors\AssignmentFunctors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\functors\BinaryFunctors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\functors\NullaryFunctors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\functors\StlFunctors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\functors\TernaryFunctors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\functors\UnaryFunctors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\GeneralBlockPanelKernel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\GeneralMatrixMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\GeneralMatrixMatrix_BLAS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\GeneralMatrixMatrixTriangular.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\GeneralMatrixMatrixTriangular_BLAS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\GeneralMatrixVector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\GeneralMatrixVector_BLAS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\Parallelizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\SelfadjointMatrixMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\SelfadjointMatrixMatrix_BLAS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\SelfadjointMatrixVector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\SelfadjointMatrixVector_BLAS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\SelfadjointProduct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\SelfadjointRank2Update.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\TriangularMatrixMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\TriangularMatrixMatrix_BLAS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\TriangularMatrixVector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\TriangularMatrixVector_BLAS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\TriangularSolverMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\TriangularSolverMatrix_BLAS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\products\TriangularSolverVector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\util\BlasUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\util\Constants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\util\DisableStupidWarnings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\util\ForwardDeclarations.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\util\Macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\util\Memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\util\Meta.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\util\MKL_support.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\util\NonMPL2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\util\ReenableStupidWarnings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\util\StaticAssert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\util\XprHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Array.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\ArrayBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\ArrayWrapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Assign.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Assign_MKL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\AssignEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\BandMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Block.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\BooleanRedux.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\CommaInitializer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\ConditionEstimator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\CoreEvaluators.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\CoreIterators.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\CwiseBinaryOp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\CwiseNullaryOp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\CwiseTernaryOp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\CwiseUnaryOp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\CwiseUnaryView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\DenseBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\DenseCoeffsBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\DenseStorage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Diagonal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\DiagonalMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\DiagonalProduct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Dot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\EigenBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\ForceAlignedAccess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Fuzzy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\GeneralProduct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\GenericPacketMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\GlobalFunctions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Inverse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\IO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\MapBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\MathFunctions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\MathFunctionsImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\MatrixBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\NestByValue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\NoAlias.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\NumTraits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\PermutationMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\PlainObjectBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Product.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\ProductEvaluators.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Random.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Redux.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Ref.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Replicate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\ReturnByValue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Reverse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Select.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\SelfAdjointView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\SelfCwiseBinaryOp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Solve.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\SolverBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\SolveTriangular.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\StableNorm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Stride.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Swap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Transpose.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Transpositions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\TriangularMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\VectorBlock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\VectorwiseOp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Core\Visitor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Eigenvalues\ComplexEigenSolver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Eigenvalues\ComplexSchur.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Eigenvalues\ComplexSchur_LAPACKE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Eigenvalues\EigenSolver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Eigenvalues\GeneralizedEigenSolver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Eigenvalues\GeneralizedSelfAdjointEigenSolver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Eigenvalues\HessenbergDecomposition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Eigenvalues\MatrixBaseEigenvalues.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Eigenvalues\RealQZ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Eigenvalues\RealSchur.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Eigenvalues\RealSchur_LAPACKE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Eigenvalues\SelfAdjointEigenSolver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Eigenvalues\SelfAdjointEigenSolver_LAPACKE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Eigenvalues\Tridiagonalization.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Geometry\arch\Geometry_SSE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Geometry\AlignedBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Geometry\AngleAxis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Geometry\EulerAngles.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Geometry\Homogeneous.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Geometry\Hyperplane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Geometry\OrthoMethods.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Geometry\ParametrizedLine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Geometry\Quaternion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Geometry\Rotation2D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Geometry\RotationBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Geometry\Scaling.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Geometry\Transform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Geometry\Translation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Geometry\Umeyama.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Householder\BlockHouseholder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Householder\Householder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Householder\HouseholderSequence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\IterativeLinearSolvers\BasicPreconditioners.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\IterativeLinearSolvers\BiCGSTAB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\IterativeLinearSolvers\ConjugateGradient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\IterativeLinearSolvers\IncompleteCholesky.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\IterativeLinearSolvers\IncompleteLUT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\IterativeLinearSolvers\IterativeSolverBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\IterativeLinearSolvers\LeastSquareConjugateGradient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\IterativeLinearSolvers\SolveWithGuess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\Jacobi\Jacobi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\LU\arch\Inverse_SSE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\LU\Determinant.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\LU\FullPivLU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\LU\InverseImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\LU\PartialPivLU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\LU\PartialPivLU_LAPACKE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\MetisSupport\MetisSupport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\misc\blas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\misc\Image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\misc\Kernel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\misc\lapack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\misc\lapacke.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\misc\lapacke_mangling.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\misc\RealSvd2x2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\OrderingMethods\Amd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\OrderingMethods\Eigen_Colamd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\OrderingMethods\Ordering.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\PardisoSupport\PardisoSupport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\PaStiXSupport\PaStiXSupport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\plugins\ArrayCwiseBinaryOps.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\plugins\ArrayCwiseUnaryOps.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\plugins\BlockMethods.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\plugins\CommonCwiseBinaryOps.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\plugins\CommonCwiseUnaryOps.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\plugins\MatrixCwiseBinaryOps.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\plugins\MatrixCwiseUnaryOps.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\QR\ColPivHouseholderQR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\QR\ColPivHouseholderQR_LAPACKE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\QR\CompleteOrthogonalDecomposition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\QR\FullPivHouseholderQR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\QR\HouseholderQR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\QR\HouseholderQR_LAPACKE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCholesky\SimplicialCholesky.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCholesky\SimplicialCholesky_impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\AmbiVector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\CompressedStorage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\ConservativeSparseSparseProduct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\MappedSparseMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseAssign.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseBlock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseColEtree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseCompressedBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseCwiseBinaryOp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseCwiseUnaryOp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseDenseProduct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseDiagonalProduct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseDot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseFuzzy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseMatrixBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparsePermutation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseProduct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseRedux.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseRef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseSelfAdjointView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseSolverBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseSparseProductWithPruning.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseTranspose.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseTriangularView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseVector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\SparseView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseCore\TriangularSolver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseLU\SparseLU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseLU\SparseLU_column_bmod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseLU\SparseLU_column_dfs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseLU\SparseLU_copy_to_ucol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseLU\SparseLU_gemm_kernel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseLU\SparseLU_heap_relax_snode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseLU\SparseLU_kernel_bmod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseLU\SparseLU_Memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseLU\SparseLU_panel_bmod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseLU\SparseLU_panel_dfs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseLU\SparseLU_pivotL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseLU\SparseLU_pruneL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseLU\SparseLU_relax_snode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseLU\SparseLU_Structs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseLU\SparseLU_SupernodalMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseLU\SparseLU_Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseLU\SparseLUImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SparseQR\SparseQR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SPQRSupport\SuiteSparseQRSupport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\StlSupport\details.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\StlSupport\StdDeque.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\StlSupport\StdList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\StlSupport\StdVector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SuperLUSupport\SuperLUSupport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SVD\BDCSVD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SVD\JacobiSVD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SVD\JacobiSVD_LAPACKE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SVD\SVDBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\SVD\UpperBidiagonalization.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen\src\UmfPackSupport\UmfPackSupport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Eigen331\src\Eigen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\HX8347D\font.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\HX8347D\LCD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\I2Cdev\I2Cdev.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\IMU\Define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\IMU\IMU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\IMU\imu_spi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\IMU\MadgwickAHRS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\IMU\MPU9250.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\IMU\MPU9250_REGS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\LcdTouchPanel\LcdTouchPanel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\OLLO\OLLO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\OP3\examples\opencr_op3\dxl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\OP3\examples\opencr_op3\dxl_debug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\OP3\examples\opencr_op3\dxl_def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\OP3\examples\opencr_op3\dxl_hw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\OP3\examples\opencr_op3\dxl_hw_op3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\OP3\examples\opencr_op3\dxl_node_op3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\OP3\OP3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\OpenCR\examples\02. Digital\a_toneMelody\pitches.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\OpenCR\examples\10. Etc\LDS\drawLDS\lds.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\OpenCR\OpenCR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RC100\RC100.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\ROS\OpenCR_ROS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTOS\src\cmsis_os.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTOS\src\croutine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTOS\src\deprecated_definitions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTOS\src\event_groups.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTOS\src\FreeRTOS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTOS\src\FreeRTOSConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTOS\src\list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTOS\src\mpu_wrappers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTOS\src\portable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTOS\src\portmacro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTOS\src\projdefs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTOS\src\queue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTOS\src\RTOS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTOS\src\semphr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTOS\src\StackMacros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTOS\src\task.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTOS\src\timers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\SPI\SPI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Touch\Touch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_burger\turtlebot3_core\turtlebot3_core_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_bike\turtlebot3_bike.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_bike\turtlebot3_bike_motor_driver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_car\turtlebot3_car.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_car\turtlebot3_car_motor_driver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_mecanum\turtlebot3_mecanum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_mecanum\turtlebot3_mecanum_motor_driver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_monster\turtlebot3_monster.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_monster\turtlebot3_monster_motor_driver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_omni\turtlebot3_omni.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_omni\turtlebot3_omni_motor_driver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_realturtlebot\turtlebot3_realturtlebot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_realturtlebot\turtlebot3_realturtlebot_motion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_realturtlebot\turtlebot3_realturtlebot_motor_driver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_road_train\turtlebot3_road_train.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_road_train\turtlebot3_road_train_motor_driver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_segway\turtlebot3_segway.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_segway\turtlebot3_segway_motor_driver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_tank\turtlebot3_tank.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_friends\turtlebot3_tank\turtlebot3_tank_motor_driver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\examples\turtlebot3_waffle\turtlebot3_core\turtlebot3_core_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\include\turtlebot3\turtlebot3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\include\turtlebot3\turtlebot3_controller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\include\turtlebot3\turtlebot3_diagnosis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\include\turtlebot3\turtlebot3_motor_driver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\include\turtlebot3\turtlebot3_sensor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3\src\TurtleBot3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\Accel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\AccelStamped.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\AccelWithCovariance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\AccelWithCovarianceStamped.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\Inertia.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\InertiaStamped.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\Point.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\Point32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\PointStamped.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\Polygon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\PolygonStamped.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\Pose.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\Pose2D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\PoseArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\PoseStamped.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\PoseWithCovariance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\PoseWithCovarianceStamped.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\Quaternion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\QuaternionStamped.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\Transform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\TransformStamped.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\Twist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\TwistStamped.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\TwistWithCovariance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\TwistWithCovarianceStamped.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\Vector3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\Vector3Stamped.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\Wrench.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\geometry_msgs\WrenchStamped.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\nav_msgs\GetMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\nav_msgs\GetMapAction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\nav_msgs\GetMapActionFeedback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\nav_msgs\GetMapActionGoal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\nav_msgs\GetMapActionResult.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\nav_msgs\GetMapFeedback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\nav_msgs\GetMapGoal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\nav_msgs\GetMapResult.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\nav_msgs\GetPlan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\nav_msgs\GridCells.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\nav_msgs\MapMetaData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\nav_msgs\OccupancyGrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\nav_msgs\Odometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\nav_msgs\Path.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\nav_msgs\SetMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\ros\duration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\ros\msg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\ros\node_handle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\ros\publisher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\ros\service_client.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\ros\service_server.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\ros\subscriber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\ros\time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\roscpp\Empty.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\roscpp\GetLoggers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\roscpp\Logger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\roscpp\SetLoggerLevel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\rosserial_arduino\Adc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\rosserial_arduino\Test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\rosserial_msgs\Log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\rosserial_msgs\RequestMessageInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\rosserial_msgs\RequestParam.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\rosserial_msgs\RequestServiceInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\rosserial_msgs\TopicInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\BatteryState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\CameraInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\ChannelFloat32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\CompressedImage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\FluidPressure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\Illuminance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\Image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\Imu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\JointState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\Joy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\JoyFeedback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\JoyFeedbackArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\LaserEcho.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\LaserScan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\MagneticField.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\MultiDOFJointState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\MultiEchoLaserScan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\NavSatFix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\NavSatStatus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\PointCloud.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\PointCloud2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\PointField.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\Range.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\RegionOfInterest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\RelativeHumidity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\SetCameraInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\Temperature.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\sensor_msgs\TimeReference.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Bool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Byte.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\ByteMultiArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Char.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\ColorRGBA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Duration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Empty.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Float32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Float32MultiArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Float64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Float64MultiArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Header.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Int8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Int8MultiArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Int16.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Int16MultiArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Int32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Int32MultiArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Int64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Int64MultiArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\MultiArrayDimension.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\MultiArrayLayout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\String.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\Time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\UInt8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\UInt8MultiArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\UInt16.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\UInt16MultiArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\UInt32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\UInt32MultiArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\UInt64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_msgs\UInt64MultiArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_srvs\Empty.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_srvs\SetBool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\std_srvs\Trigger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\tf\FrameGraph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\tf\tf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\tf\tfMessage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\tf\transform_broadcaster.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\tf2_msgs\FrameGraph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\tf2_msgs\LookupTransformAction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\tf2_msgs\LookupTransformActionFeedback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\tf2_msgs\LookupTransformActionGoal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\tf2_msgs\LookupTransformActionResult.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\tf2_msgs\LookupTransformFeedback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\tf2_msgs\LookupTransformGoal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\tf2_msgs\LookupTransformResult.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\tf2_msgs\TF2Error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\tf2_msgs\TFMessage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\turtlebot3_msgs\SensorState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\turtlebot3_msgs\Sound.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\turtlebot3_msgs\VersionInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\ArduinoHardware.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\turtlebot3_ros_lib\ros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Waveshare_HX8347D\examples\lcd_logo\logo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Waveshare_HX8347D\Waveshare_HX8347D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Wire\SlowSoftI2CMaster.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Wire\Wire.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\XPT2046\XPT2046.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\include\arm_common_tables.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\include\arm_const_structs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\include\arm_math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\include\cmsis_armcc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\include\cmsis_armcc_V6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\include\cmsis_gcc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\include\core_cm0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\include\core_cm0plus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\include\core_cm3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\include\core_cm4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\include\core_cm7.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\include\core_cmFunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\include\core_cmInstr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\include\core_cmSimd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\include\core_sc000.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\include\core_sc300.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\bsp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\stm32f7xx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\stm32f7xx_hal_conf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\stm32f7xx_it.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\stm32f746xx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\system_clock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\bsp\opencr\system_stm32f7xx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\driver\can.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\driver\delay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\driver\drv_adc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\driver\drv_can.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\driver\drv_dxl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\driver\drv_eeprom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\driver\drv_exti.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\driver\drv_i2c.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\driver\drv_micros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\driver\drv_pwm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\driver\drv_rtc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\driver\drv_spi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\driver\drv_timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\driver\drv_uart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\driver\flash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\driver\ring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\driver\vcp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\driver\wdg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\usb_cdc\usbd_cdc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\usb_cdc\usbd_cdc_interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\usb_cdc\usbd_conf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\usb_cdc\usbd_core.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\usb_cdc\usbd_ctlreq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\usb_cdc\usbd_def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\usb_cdc\usbd_desc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\usb_cdc\usbd_ioreq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\def_err.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\hw\hw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_adc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_adc_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_can.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_cec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_conf_template.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_cortex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_crc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_crc_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_cryp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_cryp_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dac_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dcmi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dcmi_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dma.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dma_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dma2d.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_eth.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_flash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_flash_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_gpio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_gpio_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_hash_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_hcd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_i2c.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_i2c_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_i2s.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_irda.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_irda_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_iwdg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_lptim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_ltdc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_nand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_nor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_pcd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_pcd_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_pwr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_pwr_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_qspi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rcc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rcc_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rtc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rtc_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_sai.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_sai_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_sd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_sdram.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_smartcard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_smartcard_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_spdifrx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_spi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_sram.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_tim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_tim_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_uart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_uart_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_usart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_usart_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_wwdg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_fmc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_sdmmc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\lib\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_usb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\chip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\pins_arduino.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\OpenCR\variant.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="boards.txt" />
+    <Text Include="platform.txt" />
+    <Text Include="programmers.txt" />
+  </ItemGroup>
 </Project>
